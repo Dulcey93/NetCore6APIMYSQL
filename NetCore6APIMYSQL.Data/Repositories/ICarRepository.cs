@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NetCore6APIMYSQL.Data.Repositories;
+
 namespace NetCore6APIMYSQL.Data.Repositories
 {
     public interface ICarRepository

@@ -23,9 +23,9 @@ namespace NetCore6APIMYSQL.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetCarDetails(int id)
+        public async Task<IActionResult> GetDetails(int id)
         {
-            return Ok(await _carRepository.GetCarDetails(id));
+            return Ok(await _carRepository.GetDetails(id));
         }
 
         [HttpPost]
